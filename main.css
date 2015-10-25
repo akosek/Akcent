@@ -13,13 +13,56 @@ body{
 	vertical-align: middle;
 }
 
- .main-containercontainer-fluid{
-	 padding:0px;
+*:focus {
+outline: 0;
+}
+
+.first-section{
+	max-width: 951px;
+	padding-top: 38px;
+	text-align: center;
+}
+
+.first-section p{
+	text-align: center;
+}
+.first-section h3{
+	text-align: center;
+}
+.second-section{
+	text-align: center;
+}
+.second-section h3{
+	font-family: menuFont;
+	font-style: normal;
+}
+
+ .fourth-section{
+	 text-align: center;
+ }
+
+ .how-pics p {
+	 text-align: center;
+ }
+.how-pics h3{
+	color: #32a0db;
+	font-family: menuFont;
+}
+
+ .first-section button, .second-section button, .fourth-section button{
+ 	background-color:#f59201;
+	color: #ffffff;
+	font-family: menuFont;
+	text-transform: uppercase;
+
  }
 
 .people{
 	background-image: url('assets/people.png');
 	height: 595px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
 }
 .pepole img{
 	height:28px;
@@ -27,14 +70,14 @@ body{
 
 .section-header{
 	background-color: #32a0db;
-	height: 50px;
-	margin-top: 200px;
+	height: 51px;
+	margin-top: 46px;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 25px;
 	text-align: center;
 	vertical-align: middle;
-	padding-bottom: 20px;
+/*	padding-bottom: 20px; */
 }
 
 #logo.navbar-header{
@@ -45,27 +88,23 @@ body{
 #section-title{
 		vertical-align: middle;
 		padding-bottom: 12.5px;
-
+		font-size:25px;
 }
-
 
 .navbar-nav{
 	text-transform: uppercase;
 }
 
-
-.how-pics{
-	display: inline-block;
-	margin-left: 227px;
+.how-pics h3{
+	text-align: center;
 }
+
 
 #mainMenu{
 	font-size: 14.5px;
 	font-family: menuFont;
 	padding-top:75px;
-/*	padding-left:85px; */
 	color: #76bce2;
-
 }
 
 #mainMenu>li>a{
