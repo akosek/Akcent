@@ -90,11 +90,17 @@ outline: 0;
 		font-size:25px;
 }
 
+
 .navbar-nav{
 	text-transform: uppercase;
 }
 
 .how-pics h3{
+	text-align: center;
+}
+
+
+#recomm {
 	text-align: center;
 }
 
@@ -121,6 +127,7 @@ outline: 0;
 .end-section {
 	background-color: #f19202;
 	height: 428px;
+	width: 100%;
 }
 
 #teacherInfo{
@@ -132,7 +139,4 @@ outline: 0;
 #tInfo{
 	text-align: center;
 
-}
-#recomm.section-header{
-	font-size:20px;
 }
