@@ -64,11 +64,14 @@ outline: 0;
 	font-weight: bold;
 }
 
- .first-section button, .second-section button, .fourth-section button{
+ .first-section button, .second-section button, .fourth-section button, .third-section button{
  	background-color:#f59201;
 	color: #ffffff;
 	font-family: menuFont;
 	text-transform: uppercase;
+	text-align: center;
+	padding-top: 6px;
+	border:none;
 
  }
 
@@ -85,7 +88,7 @@ outline: 0;
 
 .section-header{
 	background-color: #32a0db;
-	height: 51px;
+/*	height: 51px; */
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 25px;
@@ -100,8 +103,8 @@ outline: 0;
 
 #section-title{
 		vertical-align: middle;
-		padding-bottom: 12.5px;
-		font-size:25px;
+/*		padding-bottom: 12.5px; */
+
 }
 
 
@@ -187,4 +190,14 @@ outline: 0;
 #author{
 	color:#4ca5df;
 	font-family: menuFont;
+}
+
+#dateInfo{
+	padding-left:30px;
+	font-size: 12px;
+}
+
+br{
+	margin: 8px 0;
+	display:block;
 }
