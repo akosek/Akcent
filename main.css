@@ -4,7 +4,6 @@
 }
 
 body{
-
 	overflow-x: hidden;
 }
 
@@ -41,12 +40,10 @@ outline: 0;
 .second-section h3{
 	font-family: menuFont;
 	font-weight: bold;
-
-
 }
-	.third-section{
-		padding-top:38px;
-		padding-bottom: 46px;
+.third-section{
+	padding-top:38px;
+	padding-bottom: 46px;
 	}
 
  .fourth-section{
@@ -82,10 +79,6 @@ outline: 0;
 	background-size: 100%;
 	background-position: center;
 }
-.pepole img{
-	height:28px;
-}
-
 .section-header{
 	background-color: #32a0db;
 /*	height: 51px; */
@@ -107,7 +100,6 @@ outline: 0;
 
 }
 
-
 .navbar-nav{
 	text-transform: uppercase;
 }
@@ -116,12 +108,9 @@ outline: 0;
 	text-align: center;
 }
 
-
 #recomm {
 	text-align: justify;
-
 }
-
 
 #mainMenu{
 	font-size: 14.5px;
