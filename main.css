@@ -12,10 +12,17 @@ body{
 	vertical-align: middle;
 }
 
+.container.first-section img {
+    height: 160px;
+}
+
 *:focus {
 outline: 0;
 }
 
+.container.fourth-section img {
+    max-height: 160px;
+}
 .first-section{
 	max-width: 951px;
 	padding-top: 38px;
@@ -61,7 +68,7 @@ outline: 0;
 	font-weight: bold;
 }
 
- .first-section button, .second-section button, .fourth-section button, .third-section button{
+ .first-section button, .second-section button, .fourth-section button, .third-section button, #recomm button{
  	background-color:#f59201;
 	color: #ffffff;
 	font-family: menuFont;
@@ -87,6 +94,7 @@ outline: 0;
 	font-size: 25px;
 	text-align: center;
 	vertical-align: middle;
+	padding:0px
 }
 
 #logo.navbar-header{
@@ -96,9 +104,11 @@ outline: 0;
 
 #section-title{
 		vertical-align: middle;
-/*		padding-bottom: 12.5px; */
-
 }
+
+#news{
+	margin-top:0px;
+	}
 
 .navbar-nav{
 	text-transform: uppercase;
@@ -110,6 +120,7 @@ outline: 0;
 
 #recomm {
 	text-align: justify;
+	display: inline-block;
 }
 
 #mainMenu{
@@ -138,6 +149,13 @@ outline: 0;
 	height: 428px;
 	padding: 0px;
 	text-align: center;
+	margin-top:-10px;
+}
+.end-section p{
+	font-family: menuFont;
+	color: #ffffff;
+	text-align: justify;
+	padding-top:23px;
 }
 
 #teacherInfo{
@@ -149,16 +167,14 @@ outline: 0;
 	text-align: center;
 }
 
-.footer-section p{
-	font-family: menuFont;
-	color: #ffffff;
-	text-align: justify;
-	padding-top:23px;
-
-}
-
 .footer-section{
 	text-align: center;
+}
+
+.contact{
+	padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
 }
 
 #newsletter{
@@ -189,4 +205,14 @@ outline: 0;
 br{
 	margin: 8px 0;
 	display:block;
+}
+
+
+.two-title {
+	padding-left:0px;
+	padding-right: 0px;
+}
+
+.recomm-box{
+	text-align: center;
 }
