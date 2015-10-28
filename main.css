@@ -3,6 +3,16 @@
     src: url("fonts/MyriadPro-Regular.otf");
 }
 
+@media screen and (max-width: 540px) {
+    .back-image {
+      height:226px;
+    }
+
+    .people{
+      height: 226px;
+    }
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -247,7 +257,7 @@ br{
 	height: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
-	margin-left:99px;
+	margin:0 auto;
 	border-bottom: 5px solid #f59201;
 }
 
@@ -268,5 +278,4 @@ br{
 }
 #arrowRecomm{
   margin-left:64px;
-  text-align: center;
 }
