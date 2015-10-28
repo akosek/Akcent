@@ -172,10 +172,6 @@ outline: 0;
 	text-align: center;
 }
 
-.footer-section{
-	text-align: center;
-}
-
 .contact{
 	padding-left:0px;
 	padding-right:0px;
@@ -198,8 +194,9 @@ outline: 0;
 	text-transform: uppercase;
 	margin-left: -4px;
 	border: none;
-	padding-top: 6px;
-	padding-bottom: 2px;
+	height: 37px;
+	padding-left:16px;
+	padding-right:16px;
 }
 
 #author{
@@ -225,4 +222,31 @@ br{
 
 .recomm-box{
 	text-align: center;
+}
+
+.section{
+	padding-top:24px;
+}
+
+.newsletter-section{
+	padding-top:14px;
+	padding-bottom:9px;
+}
+
+#adress{
+	line-height: 10px;
+}
+
+#newsletter{
+	width: 185px;
+	height:37px;
+}
+
+.arrow-up {
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+
+	border-bottom: 5px solid black;
 }
