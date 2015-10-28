@@ -253,6 +253,15 @@ br{
 	height:37px;
 }
 
+.arrow-up{
+	width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	margin:0 auto;
+	border-bottom: 5px solid #f59201;
+}
+
 .arrow-box{
   padding:0px;
 }
