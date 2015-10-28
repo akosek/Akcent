@@ -8,20 +8,17 @@
       height: 450px!important;
     }
 }
-
 @media screen and (max-width: 1034px) {
     .people {
       height: 300px!important;
     }
 }
 
-
 @media screen and (min-width: 1200px) {
     .people {
       height: 585px!important;
     }
 }
-
 
 @media screen and (max-width: 360px) {
     .people {
@@ -146,8 +143,8 @@ outline: 0;
 	text-align: center;
 	vertical-align: middle;
 	padding:0px;
-	padding-bottom: 12px;
-	padding-top: 8px;
+	padding-bottom:2px;
+	padding-top: -3px;
 }
 
 #logo.navbar-header{
@@ -157,10 +154,6 @@ outline: 0;
 
 #seeAll{
 	margin-bottom:40px;
-}
-
-#section-title{
-		vertical-align: middle;
 }
 
 #news{
@@ -175,6 +168,11 @@ outline: 0;
 
 .how-pics h3{
 	text-align: center;
+}
+
+#recommHeader{
+  padding-bottom: 2px;
+  padding-top:1px;
 }
 
 #recomm {
@@ -279,7 +277,7 @@ br{
 }
 
 .section{
-	padding-top:24px;
+	padding-top:4px;
 }
 
 .newsletter-section{
@@ -309,12 +307,8 @@ br{
   padding:0px;
 }
 
-#arrowLearn.arrow-up{
-  margin-left:176px;
-}
-
-#arrowTeacher{
-  margin-left:565px;
+#arrowLearn .arrow-up, #arrowTeacher .arrow-up{
+  margin-left:0 auto;
 }
 
 #arrowActual{
