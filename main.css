@@ -3,15 +3,59 @@
     src: url("fonts/MyriadPro-Regular.otf");
 }
 
-@media screen and (max-width: 540px) {
-    .back-image {
-      height:226px;
-    }
-
-    .people{
-      height: 226px;
+@media screen and (max-width: 1207px) {
+    .people {
+      height: 450px!important;
     }
 }
+
+@media screen and (max-width: 1034px) {
+    .people {
+      height: 300px!important;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .people {
+      height: 585px!important;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .people {
+      height: 150px!important;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .people {
+      height: 550px!important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .people {
+      height: 250px!important;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .people {
+      height: 200px!important;
+    }
+}
+
+.mainMenu.navbar-collapse{
+  background-color: #ffffff;
+}
+
+
+.newNavbar{
+    background-color: #ffffff;
+}
+
 
 body {
 	overflow-x: hidden;
@@ -90,7 +134,7 @@ outline: 0;
 
 .people{
 	background-image: url('assets/people.png');
-	height: 585px;
+	/*height: 585px; */
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-position: center;
