@@ -247,6 +247,26 @@ br{
 	height: 0;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
+	margin-left:99px;
+	border-bottom: 5px solid #f59201;
+}
 
-	border-bottom: 5px solid black;
+.arrow-box{
+  padding:0px;
+}
+
+#arrowLearn.arrow-up{
+  margin-left:176px;
+}
+
+#arrowTeacher{
+  margin-left:565px;
+}
+
+#arrowActual{
+  margin-left: 64px;
+}
+#arrowRecomm{
+  margin-left:64px;
+  text-align: center;
 }
